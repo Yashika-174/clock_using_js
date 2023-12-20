@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=DM+Serif+Display&family=Exo+2&family=Josefin+Slab:wght@300&family=Lato:wght@900&family=Pacifico&family=Playpen+Sans:wght@500&family=Roboto+Mono&family=Rubik+Doodle+Shadow&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+
+
+
+body{
+    background:url('background.webp');
+
+}
+h1{
+    text-align: center;
+    font-family:Rubik Doodle Shadow;
+    font-size: xxx-large;
+}
+
+.time{
+    display:block;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    position:relative;
+    top:14vh;
+}
+
+.hours,.minutes,.seconds{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size:xx-large;
+    font-family:Playpen Sans;
+    font-weight: bolder;
+    border:3px solid purple;
+    border-radius: 24px;
+    height:40vh;
+    width:18vw;
+    margin:8px;
+}
+
+#value1,#value2,#value3{
+    font-size: 80px;
+    font-family: Playpen Sans;
+}
