@@ -15,7 +15,7 @@ let fun = setInterval(function () {
     seconds = a.getSeconds();
     days = a.getDay();
     date_value = a.toLocaleDateString("en-GB");
-    if (hours > 12) {
+    if (hours >= 12) {
         ampm_value = "PM";
     }
     value1.innerHTML = hours;
